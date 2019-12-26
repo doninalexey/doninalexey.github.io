@@ -1,0 +1,188 @@
+body {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+	font: 12px 'Roboto', sans-serif;
+    font-weight: 300;
+	margin: 0;
+    background: url(../images/bodyBg.png), repeat-x, repeat-y;
+}
+
+header {
+    width: 100%;
+    height: 58px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    background:url(../images/headerBg.png), repeat-x;
+    z-index: 99990;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background:url(../images/footerBg.png), repeat-x, repeat-y;
+    margin: auto;
+    display: inline-block;
+}
+footer p {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+#logo {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    display: flex;
+}
+#contactsBtn{
+    width: 22px;
+    height: 15px;
+    position: fixed;
+    top: 18px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.banner {
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    float: left;
+}
+.bannerPlayBtn {
+    position: absolute;
+    z-index:2;
+    cursor: pointer;
+}
+.bannerPlayBtn span {
+    position: absolute;
+    z-index:3;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.bannerImg {
+    position: absolute;
+    z-index:1;
+}
+.bannerStopBtn {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    z-index:2;
+    cursor: pointer;
+}
+iframe {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    z-index:1;
+    margin: 0px;
+}
+#banners {
+    display: block; 
+}
+#bannersConteiner {
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+#loadMoreBtnConteiner {
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#contacts {
+    width: 360px;
+    height: 170px;
+    position: fixed;
+    background:url(../images/footerBg.png), repeat-x, repeat-y;
+    top: 60px;
+    right: 14px;
+    visibility: hidden;
+}
+#closeContactsBtn {
+    cursor: pointer;
+    top: 68px;
+    right: 24px;
+    width: 13px;
+    height: 13px;
+    position: fixed;
+}
+#contactText {
+    position: fixed;
+    top: 100px;
+    right: 70px;
+    font-size: 14px;
+}
+#contactText span{
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#infoBtn {
+    width: 17px;
+    height: 17px;
+    position: fixed;
+    top: 18px;
+    right: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#info {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:99991;
+    background-color:  rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+#infoConteiner {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    background:url(../images/footerBg.png), repeat-x, repeat-y;
+}
+#closeInfoBtn {
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    padding-left: 383px;
+    padding-top: 4px;
+    
+}
+#infoText {
+    font-size: 14px;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 55px;
+}
+h1, b {
+    font-size: 18px;
+    font-weight: 600;
+}
